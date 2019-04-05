@@ -1,0 +1,51 @@
+.navbar.navbar-1 .navbar-toggler-icon {
+  background-image: url("https://mdbootstrap.com/img/svg/hamburger6.svg?color=000"); }
+
+.navbar-light .navbar-toggler {
+  border: none;
+  outline: none; }
+
+.navbar-brand {
+  text-transform: uppercase;
+  letter-spacing: 1px; }
+
+.web-development-bg {
+  background-image: url(../images/head-picture.png);
+  min-height: 810px;
+  width: 100%;
+  background-size: cover; }
+
+.web-development {
+  padding-top: 200px;
+  text-align: center; }
+  .web-development h1 {
+    font-size: 60px; }
+  .web-development p {
+    font-size: 20px; }
+  .web-development a {
+    text-transform: uppercase;
+    padding: 20px;
+    margin-top: 80px; }
+    .web-development a:hover {
+      border: none;
+      transition: 1s;
+      background-color: #00897b; }
+
+.our-team {
+  min-height: 1095px;
+  width: 100%; }
+
+.team h1 {
+  text-align: center;
+  margin-top: 125px; }
+.team p {
+  text-align: center; }
+
+.team-photo {
+  margin-top: 130px; }
+  .team-photo h5 {
+    text-align: center; }
+  .team-photo h6 {
+    text-align: center; }
+
+/*# sourceMappingURL=style.css.map */
