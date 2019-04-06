@@ -47,5 +47,48 @@
     text-align: center; }
   .team-photo h6 {
     text-align: center; }
+  .team-photo .icons {
+    background-color: #f0f1f1;
+    font-size: 28px;
+    line-height: 50px;
+    display: inline-block;
+    width: 50px;
+    margin: auto;
+    text-align: center; }
+    .team-photo .icons:hover {
+      color: white;
+      background-color: #3949ab;
+      transition: 1.5s; }
+    .team-photo .icons i {
+      line-height: 50px; }
+
+.contact {
+  background-image: url(../images/footer-bg.png);
+  min-height: 1250px;
+  width: 100%;
+  background-size: cover; }
+  .contact .contact-us h1 {
+    text-align: center;
+    padding-top: 128px; }
+  .contact .contact-us p {
+    text-align: center; }
+
+.contact-photos {
+  text-align: center;
+  margin-top: 100px; }
+
+.col-md-8 {
+  margin-top: 80px; }
+  .col-md-8 .form-inline .form-group {
+    width: 49%; }
+    .col-md-8 .form-inline .form-group input {
+      margin-bottom: 30px;
+      height: 60px; }
+  .col-md-8 .form-inline textarea {
+    width: 98%;
+    height: 320px;
+    color: #555;
+    background-color: #fff;
+    background-image: none; }
 
 /*# sourceMappingURL=style.css.map */

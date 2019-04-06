@@ -60,4 +60,66 @@
   h6{
     text-align: center;
   }
+  .icons{
+    background-color: #f0f1f1;
+    font-size: 28px;
+    line-height: 50px;
+    display: inline-block;
+    width: 50px;
+    margin: auto;
+    text-align: center;
+    &:hover{
+      color: white;
+      background-color: #3949ab;
+      transition: 1.5s;
+    }
+    i{
+      line-height: 50px;
+    }
+  }
+}
+
+
+
+.contact{
+  background-image: url(../images/footer-bg.png);
+  min-height: 1250px;
+  width: 100%;
+  background-size: cover;
+  .contact-us{
+    h1{
+      text-align: center;
+      padding-top: 128px;
+    }
+    p{
+      text-align: center;
+    }
+  }
+}
+.contact-photos{
+  text-align: center;
+  margin-top: 100px;
+}
+.col-md-8 {
+  margin-top: 80px;
+  .form-inline {
+    .form-group {
+
+      width: 49%;
+
+      input {
+        margin-bottom: 30px;
+        height: 60px;
+        }
+      }
+
+
+    textarea {
+      width: 98%;
+      height: 320px;
+      color: #555;
+      background-color: #fff;
+      background-image: none;
+    }
+  }
 }
