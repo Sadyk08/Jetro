@@ -89,6 +89,26 @@
     height: 320px;
     color: #555;
     background-color: #fff;
-    background-image: none; }
+    background-image: none;
+    border: none; }
+
+.carousel-indicators {
+  bottom: -155px; }
+  .carousel-indicators li {
+    text-indent: 0;
+    margin: 9px;
+    width: 15px;
+    height: 15px;
+    border: none;
+    line-height: 30px;
+    color: #fff;
+    background-color: #00897b;
+    transition: all 0.25s ease;
+    list-style: none; }
+    .carousel-indicators li.active, .carousel-indicators li:hover {
+      margin: 0 2px;
+      width: 30px;
+      height: 30px;
+      background-color: #3949ab; }
 
 /*# sourceMappingURL=style.css.map */
